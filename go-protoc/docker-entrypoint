@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+# Use eval so that arguments are expanded.
+eval protoc "$@"
